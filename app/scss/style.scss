@@ -1,126 +1,43 @@
-#blackHeader{
-   height:46px;
-    i{
-        font-size:23px;
-        color:gray;
-    }
-    .languages{
-        color:#edab40;
-        i{
-            color:#edab40;
-            font-weight: 700;
-        }
-    }
-}
 #navbar{
-    .navbar-brand{
-        font-weight:700;
-    }
-    .dropdown{
-        a{
-            color:#edab40;
-        }
+    li a:hover{
        
+      background-color: red;
+      color:white; 
     }
-    li{
-        font-weight:500;
-        a{
-            margin-right:30px;
-        }
-        
-    }
+}
+
+
+.popular{
+  img{
+      width:100px;
+
+  }
+ h6{
+     cursor: pointer;
+ }
+   
+}
+.social{
     i{
-        font-size:23px;
-        margin-right:10px;
+        font-size:2em;
         
     }
 }
-#search{
-    .header{
-            color:#edab40;
-        }
-        ::placeholder {
-            color: #edab40;
-            font-weight: 700;
-            opacity: 1; 
-            padding-left:10px;
-            margin-left:40px;
-          }
-          
-    
+.cards{
+    img{
+        border-radius:8px;
+        box-shadow: 2px 3px 4px 2px red;
+        margin-top:0.5em;
+    }
+}
+@media screen and (min-width: 100px) {
   
+  #main{
+      a{
+          float:right;
+      }
+  }       
+   
 }
-#performance{
-    .jumbotron{
-        background-image: url("../images/slide-home3fix.png");
-        a{
 
-            background-color:black;
-            color:white;
-        }
-        img{
-            position:relative;
-            float:right;
-            width:350px;
-            height:350px;
-            margin-top:-170px;
-        }
-    }
-.card1{
-    img{
-        width:150px;
-    }
-    h4{
-        color: #edab40;
-        font-weight:700;
-    }
-    background-color: #fcfcfc;
-}
-}
-#wheels{
-    img{
-        height:170px;
-        width:230px;
-    }
-    .fa-star{
-        color:  #edab40;
-    }
-    .fa-list,.fa-hear-o{
-        
-        margin-left:200px;
-        margin-right:10px;
-    }
-    .border-warning{
-        width:250px;
-        font-weight:700;
-    }
-}
-#trio{
-
-    i{
-        color:#edab40;
-        font-size:45px;
-        margin-right:10px;
-        margin-left:70px;
-
-    }
-    .first,.second {
-        border-right:1px,solid,black;
-    }
-}
-footer{
-    padding:20px;
-    .flex-row{
-        i{
-            font-size:20px;
-        }
-        
-    }
-   li{
-       list-style: none;
-   }
-   h5{
-       color:#edab40;
-       
-   }
-}
+  
